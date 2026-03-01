@@ -1,0 +1,39 @@
+# ============================================================
+# HMDA Big Data ML Project — Requirements
+# ============================================================
+# Setup:
+#   python3 -m venv hmda_venv
+#   source hmda_venv/bin/activate
+#   pip install -r requirements.txt
+#   python -m ipykernel install --user --name=hmda_venv --display-name "HMDA BigData"
+# ============================================================
+
+# --- Core: Distributed Computing & Notebook Environment ---
+pyspark>=3.5,<4.0     
+jupyter                  
+notebook                 
+ipykernel                
+
+# --- Data Processing ---
+pandas                   
+numpy                   
+pyarrow                  
+
+# --- Machine Learning ---
+scikit-learn             
+
+# --- Visualization (inline notebook plots) ---
+matplotlib               
+seaborn                  
+
+# --- Configuration ---
+pyyaml                   
+
+# --- Profiling & Monitoring ---
+psutil                 
+
+# --- Testing ---
+pytest                   
+
+# --- Utility ---
+tqdm                  

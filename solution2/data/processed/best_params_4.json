@@ -1,0 +1,16 @@
+{
+  "NB": {
+    "smoothing": 1.0
+  },
+  "LR": {
+    "regParam": 0.001,
+    "elasticNetParam": 0.0
+  },
+  "SVM": {
+    "regParam": 0.001
+  },
+  "DT": {
+    "maxDepth": 15,
+    "minInstancesPerNode": 100
+  }
+}

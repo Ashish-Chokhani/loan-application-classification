@@ -1,0 +1,43 @@
+# ============================================================
+# HMDA Big Data ML Project — .gitignore
+# ============================================================
+
+# --- Data files (too large for Git) ---
+data/raw/
+data/processed/hmda_2023.parquet
+data/processed/train_features.parquet
+data/processed/test_features.parquet
+*.pkl
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Virtual environment ---
+hmda_venv/
+venv/
+.env
+
+# --- Jupyter ---
+#.ipynb_checkpoints/
+#*.ipynb_metadata/
+
+# --- Spark ---
+spark-warehouse/
+metastore_db/
+derby.log
+
+# # --- Models (large serialized files) ---
+# models/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+
+# # --- Tableau (large binary files) ---
+# tableau/*.twbx
+# tableau/*.hyper
